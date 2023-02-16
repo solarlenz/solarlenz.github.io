@@ -25,7 +25,8 @@ header p {
 /* Header styles */
 
 header {
-  color: #000000;
+  background: #0000;
+  color: #cccc;
   padding: 1em;
 }
 
