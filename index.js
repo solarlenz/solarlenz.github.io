@@ -7,10 +7,9 @@ window.addEventListener('load', function() {
   spinner.classList.add('spinner');
   spinner.innerHTML = '<div></div><div></div><div></div><div></div>';
   document.body.appendChild(spinner);
-  document.body.style.backgroundColor = "black";
   setTimeout(function() {
     spinner.remove();
-    document.body.style.backgroundColor = linear-gradient(180deg, rgba(51,50,50,1) 3%, rgba(226,113,0,1) 100%);
+      document.body.style.backgroundColor = "linear-gradient(180deg, rgba(51,50,50,1) 3%, rgba(226,113,0,1) 100%)";
   }, 1000);
 });
 
