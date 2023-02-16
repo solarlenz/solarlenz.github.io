@@ -21,7 +21,7 @@ p {
 /* Header styles */
 
 header {
-  background: linear-gradient(180deg, rgba(51,50,50,1) 0%, rgba(69,68,67,1) 100%);
+  background: #00000;
   color: #fff;
   padding: 1em;
 }
