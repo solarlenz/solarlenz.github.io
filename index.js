@@ -9,7 +9,7 @@ window.addEventListener('load', function() {
   document.body.appendChild(spinner);
   setTimeout(function() {
     spinner.remove();
-      document.body.style.backgroundColor = "linear-gradient(180deg, rgba(51,50,50,1) 2%, rgb(255, 160, 122) 100%)";
+      document.body.style.backgroundColor = "linear-gradient(180deg, rgba(51,50,50,1) 2%, rgb(255, 158, 77) 100%)";
   }, 1000);
 });
 
