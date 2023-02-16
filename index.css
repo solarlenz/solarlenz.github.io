@@ -79,3 +79,16 @@ h2 {
 ::-webkit-scrollbar-thumb:hover {
   background: #ffce76;
 }
+
+.dot {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.5;
+  filter: blur(2px);
+  pointer-events: none;
+}
+
+
