@@ -11,12 +11,13 @@ window.onload = function() {
 
   // Fade in the page content and change the background color
   spinnerImg.onload = function() {
-    loadingDiv.style.opacity = '0';
+    loadingDiv.style.opacity = '1';
     setTimeout(function() {
       loadingDiv.style.display = 'none';
       pageBody.style.backgroundColor = '#f48c06';
       pageBody.style.transition = 'background-color 0.5s ease-in-out';
       pageBody.style.opacity = '1';
+      loadingDiv.style.opacity = '0';
     }, 500);
   };
 };
