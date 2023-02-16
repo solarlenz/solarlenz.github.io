@@ -29,8 +29,8 @@ header p {
 /* Header styles */
 
 header {
-  background: radial-gradient(ellipse at center, #00000 0%, #0000 100%);
-  color: #cccc;
+  background-color: #000;
+  color: #fff;
   padding: 1em;
 }
 
