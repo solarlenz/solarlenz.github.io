@@ -15,9 +15,9 @@ window.onload = function() {
     setTimeout(function() {
       loadingDiv.style.display = 'none';
       pageBody.style.backgroundColor = '#f48c06';
-      pageBody.style.transition = 'background-color 0.5s ease-in-out';
+      pageBody.style.transition = 'background-color 1s ease-in-out';
       pageBody.style.opacity = '1';
       loadingDiv.style.opacity = '0';
-    }, 500);
+    }, 1000);
   };
 };
