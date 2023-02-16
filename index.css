@@ -22,6 +22,10 @@ header p {
  text-align: center; 
 }
 
+#main {
+  marin-left: 1em;
+}
+
 /* Header styles */
 
 header {
