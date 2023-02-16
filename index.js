@@ -19,7 +19,7 @@ window.addEventListener('load', function() {
 //////////////////////////////////////////////
 
 const header = document.querySelector('header');
-const dotCount = 20;
+const dotCount = 40;
 
 for (let i = 0; i < dotCount; i++) {
   const dot = document.createElement('div');
