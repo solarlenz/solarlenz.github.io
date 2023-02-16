@@ -12,7 +12,7 @@ window.onload = function() {
   // Fade in the page content and change the background color
   spinnerImg.onload = function() {
     loadingDiv.style.opacity = '1';
-    setTimeout(function() {
+    setTimeout(() => {
       loadingDiv.style.display = 'none';
       pageBody.style.backgroundColor = '#f48c06';
       pageBody.style.transition = 'background-color 1s ease-in-out';
