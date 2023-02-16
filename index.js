@@ -18,7 +18,7 @@ window.addEventListener('load', function() {
 // Stars
 //////////////////////////////////////////////
 
-const header = document.querySelector('header');
+const header = document.querySelector('body');
 const dotCount = 40;
 
 for (let i = 0; i < dotCount; i++) {
