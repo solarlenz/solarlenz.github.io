@@ -1,5 +1,6 @@
 /* General styles */
 body {
+  overflow-x: hidden;
   font-family: 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
