@@ -29,11 +29,11 @@ header p {
 }
 
 #main p {
-  marin-left: 1em;
+  padding-left: 1em;
 }
 
 #main h2 {
-  marin-left: 1em;
+  padding-left: 1em;
 }
 
 /* Header styles */
