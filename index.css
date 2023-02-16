@@ -19,6 +19,7 @@ h1, h2 {
 }
 
 p {
+  white-space: nowrap;
   margin: 0 0 1em;
   font-size: 1em;
   color: #ccc;
