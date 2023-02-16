@@ -21,3 +21,18 @@ window.onload = function() {
     }, 1000);
   };
 };
+
+
+//////////////////////////////////////////////
+// Stars
+//////////////////////////////////////////////
+const header = document.querySelector('header');
+const dotCount = 20;
+
+for (let i = 0; i < dotCount; i++) {
+  const dot = document.createElement('div');
+  dot.classList.add('dot');
+  dot.style.top = Math.floor(Math.random() * header.clientHeight) + 'px';
+  dot.style.left = Math.floor(Math.random() * header.clientWidth) + 'px';
+  header.appendChild(dot);
+}
